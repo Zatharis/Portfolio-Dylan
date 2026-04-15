@@ -1,0 +1,13 @@
+/* Giving the body some color */
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to top right, rgb(0, 3, 44), rgb(0, 128, 90));
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
