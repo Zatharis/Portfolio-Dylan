@@ -3,6 +3,7 @@ body{
     margin: 0;
     font-family: Arial, sans-serif;
     background: linear-gradient(to top right, rgb(0, 3, 44), rgb(0, 128, 90));
+    
 }
 nav ul{
     display: flex;
@@ -28,4 +29,44 @@ nav a {
 nav a:hover {
     background-color: gray;
     color: white;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin: 40px 0;
+}
+
+.project img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.project p {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  max-width: 400px;
+}
+
+.intro{
+    background-color: white;
+    width: 200px;
+    border-radius: 5px;
+}
+p:last-of-type{
+    display:flex;
+    background-color: white;
+    max-width: 1000px;
+    border-radius: 5px;
+}
+h2{
+    background-color: white;
+    width: 360px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.project.project:nth-child(even) {
+  flex-direction: row-reverse;
 }
