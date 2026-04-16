@@ -11,3 +11,21 @@ nav ul{
     list-style: none;
     padding: 0;
 }
+img {
+    display: flex;
+    width:200px;
+    height: auto;
+}
+/* Shaping nav buttons more */
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+/* Hover change */
+nav a:hover {
+    background-color: gray;
+    color: white;
+}
