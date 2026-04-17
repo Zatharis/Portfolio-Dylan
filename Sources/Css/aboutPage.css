@@ -12,9 +12,54 @@ nav ul{
     padding: 0;
 }
 img {
-    display: flex;
+    display: block;
     width:200px;
     height: auto;
+    border-radius: 10px;
+}
+article ul {
+    background-color: white;
+    max-width: 400px;
+    border-radius: 5px;
+}
+h2 {
+    background-color: white;
+    max-width: 440px;
+    border-radius: 5px;
+}
+article h3 {
+    background-color: white;
+    max-width: 250px;
+    border-radius: 5px;
+}
+.onedrive {
+    background-color: white;
+    max-width: 130px;
+    padding: 5px;
+    border-radius: 5px;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    margin: 20px auto;
+    gap: 15px;
+}
+figure p {
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+button{
+    background-color: rgb(0, 3, 44);
 }
 
 /* Shaping nav buttons more */
