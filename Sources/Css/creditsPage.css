@@ -23,7 +23,6 @@ body{
     margin: 0;
     font-family: Arial, sans-serif;
     background: linear-gradient(to top right, rgb(0, 3, 44), rgb(0, 128, 90));
-    height:1500px;
 }
 /* 1.2 Styling List */
 li {
