@@ -9,16 +9,18 @@ buttonClick.addEventListener('click', () => {
     console.log(count);
     if (count == 5) {
         alert("Woah, found something?");
-        buttonClick.textContent = "Does it do something..?"
+        buttonClick.style.backgroundColor = "white";
+        buttonClick.textContent = "Does it do something..?";
+        buttonCounter.style.backgroundColor = "white";
     }
     else if (count == 25) {
-        alert("Hey, aren't you supposed to be working?")
+        alert("Hey, aren't you supposed to be working?");
     }
     else if (count == 100) {
-        alert("You really want that clicker game huh..")
-        buttonClick.textContent = "Clicky clicky!"
+        alert("You really want that clicker game huh..");
+        buttonClick.textContent = "Clicky clicky!";
     }
     else if (count == 150){
-        alert("Achievement: clicker pro!")
+        alert("Achievement: clicker pro!");
     }
 })
