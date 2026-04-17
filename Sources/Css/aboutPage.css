@@ -1,8 +1,11 @@
 /* Giving the body some color */
-body{
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: linear-gradient(to top right, rgb(0, 3, 44), rgb(0, 128, 90));
+body {
+  margin: 0;
+  min-height: 100vh;
+
+  background: linear-gradient(to top right, rgb(0, 3, 44), rgb(0, 128, 90));
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 /* Positioning and styling nav bar horizontally in the center */
 nav ul{
@@ -81,6 +84,11 @@ nav a {
     padding: 10px 20px;
     background-color: white;
     border-radius: 5px;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
 
 /* Hover change */

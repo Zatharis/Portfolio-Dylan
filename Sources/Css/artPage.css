@@ -19,11 +19,13 @@ Index:
 
 /* 1.Styling */
 /* 1.1 Giving the body some color */
-body{
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: linear-gradient(to top right, rgb(0, 3, 44), rgb(0, 128, 90));
-    
+body {
+  margin: 0;
+  min-height: 100vh;
+
+  background: linear-gradient(to top right, rgb(0, 3, 44), rgb(0, 128, 90));
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* 1.2 Limiting image width */
@@ -88,16 +90,14 @@ nav ul{
   gap: 30px;
   margin: 40px 0;
 }
+.project:nth-child(even) {
+  flex-direction: row-reverse;
+}
 /* 2.3 positioning header */
 h1 {
     display: flex;
     justify-content: center;
     gap: 30px;
-}
-
-
-.project:nth-child(even) {
-  flex-direction: row-reverse;
 }
 
 /* 3. Hover change */
