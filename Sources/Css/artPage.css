@@ -1,17 +1,38 @@
-/* Giving the body some color */
+/* 
+Dylan Camlis 2026, Aprl 16.
+
+Color pallet:
+Background:
+Deep ocean blue
+seafoam green
+Nav Button Change:
+gray
+Text and nav background:
+white
+
+
+Index:
+1 - Styling
+2 - positioning
+3 - interactivity
+*/
+
+/* 1.Styling */
+/* 1.1 Giving the body some color */
 body{
     margin: 0;
     font-family: Arial, sans-serif;
     background: linear-gradient(to top right, rgb(0, 3, 44), rgb(0, 128, 90));
+    
 }
-nav ul{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    list-style: none;
-    padding: 0;
+
+/* 1.2 Limiting image width */
+img {
+    display: block;
+    width:200px;
+    height: auto;
 }
-/* Shaping nav buttons more */
+/* 1.3 Shaping nav buttons more */
 nav a {
     display: inline-block;
     padding: 10px 20px;
@@ -19,7 +40,61 @@ nav a {
     border-radius: 5px;
 }
 
-/* Hover change */
+/* 1.4 Stying articles */
+.project img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.project p {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  max-width: 400px;
+}
+/* 1.5 Stying first paragraph */
+.intro{
+    background-color: white;
+    width: 200px;
+    border-radius: 5px;
+}
+/* 1.6 Styling last paragraph */
+p:last-of-type{
+    display:flex;
+    background-color: white;
+    max-width: 1000px;
+    border-radius: 5px;
+}
+/* 1.7 Styling header */
+h2{
+    background-color: white;
+    width: 360px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* 2.1 Centering Nav list and making it horizontal */
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+/* 2.2 Positioning articles */
+.project {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin: 40px 0;
+}
+
+
+.project:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+/* 3. Hover change */
 nav a:hover {
     background-color: gray;
     color: white;

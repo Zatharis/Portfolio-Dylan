@@ -88,9 +88,7 @@ nav ul{
   gap: 30px;
   margin: 40px 0;
 }
-
-
-.project.project:nth-child(even) {
+.project:nth-child(even) {
   flex-direction: row-reverse;
 }
 
