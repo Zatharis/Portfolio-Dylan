@@ -91,6 +91,12 @@ nav ul{
 .project:nth-child(even) {
   flex-direction: row-reverse;
 }
+/* 2.3 positioning header */
+h1 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
 
 /* 3. Hover change */
 nav a:hover {

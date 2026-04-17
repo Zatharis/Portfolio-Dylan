@@ -88,6 +88,12 @@ nav ul{
   gap: 30px;
   margin: 40px 0;
 }
+/* 2.3 positioning header */
+h1 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
 
 
 .project:nth-child(even) {
