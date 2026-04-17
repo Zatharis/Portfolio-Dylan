@@ -1,7 +1,9 @@
+
+/* Make pages fit screen more proportionally */
 html, body{
     height: 100%;
 }
-
+/* if the viewport is smaller it will change pages dynamically */
 @media(max-width: 726px){
     nav ul {
         flex-direction: column;

@@ -4,6 +4,7 @@ body{
     font-family: Arial, sans-serif;
     background: linear-gradient(to top right, rgb(0, 3, 44), rgb(0, 128, 90));
 }
+/* Positioning and styling nav bar horizontally in the center */
 nav ul{
     display: flex;
     justify-content: center;
@@ -11,38 +12,45 @@ nav ul{
     list-style: none;
     padding: 0;
 }
+/* limiting image width */
 img {
     display: block;
     width:200px;
     height: auto;
     border-radius: 10px;
 }
+/* Styling unorderd list */
 article ul {
     background-color: white;
     max-width: 400px;
     border-radius: 5px;
 }
+/* Stying header */
 h2 {
     background-color: white;
     max-width: 440px;
     border-radius: 5px;
 }
+/* Styling Class titles */
 article h3 {
     background-color: white;
     max-width: 250px;
     border-radius: 5px;
 }
+/* Styling onedrive link */
 .onedrive {
     background-color: white;
     max-width: 130px;
     padding: 5px;
     border-radius: 5px;
 }
+/* Aligning class lists to center */
 article{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+/* Styling last paragraph */
 :last-of-type p {
     max-width: 200px;
     border-radius: 5px;
@@ -56,11 +64,13 @@ figure {
     margin: 20px auto;
     gap: 15px;
 }
+/* Styling paragraphs in figures */
 figure p {
     background-color: white;
     padding: 5px;
     border-radius: 5px;
 }
+/* hiding button for game */
 button{
     background-color: rgb(0, 3, 44);
 }
