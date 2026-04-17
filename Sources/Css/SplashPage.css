@@ -17,7 +17,6 @@ body{
     margin: 0;
     font-family: Arial, sans-serif;
     background: linear-gradient(to top right, rgb(0, 3, 44), rgb(0, 128, 90));
-    height:1000px;
 }
 /* Centering header */
 h1 {
@@ -46,6 +45,8 @@ nav ul{
 img {
     width:200px;
     height: auto;
+    /* adding corner curvs */
+    border-radius: 10px;
 }
 /* Centering figures and text */
 figure {
