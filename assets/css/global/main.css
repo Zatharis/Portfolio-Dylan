@@ -1,0 +1,62 @@
+/* 
+Color pallet:
+
+Background:
+blue
+dark seafoam green (0, 128, 90)
+links and texts:
+white
+Nav alt:
+gray
+
+
+*/
+
+/* Giving the body some color */
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+
+  background: linear-gradient(to top right, rgb(0, 3, 44), rgb(0, 128, 90));
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Positioning and styling nav bar horizontally in the center */
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+/* Hover change */
+nav a:hover {
+    background-color: gray;
+    color: white;
+}
+img {
+    display: block;
+    width:200px;
+    height: auto;
+    border-radius: 5px;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+h2, p, figcaption {
+    background-color: white;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px;
+}

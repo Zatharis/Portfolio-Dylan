@@ -1,0 +1,47 @@
+/* 
+Dylan Camlis 2026, Aprl 16.
+
+Color pallet:
+Background:
+Deep ocean blue
+seafoam green
+Nav Button Change:
+gray
+Text and nav background:
+white
+
+
+Index:
+1 - Styling
+2 - positioning
+3 - interactivity
+*/
+
+/* 1.Styling */
+
+/* 1.2 Limiting image width */
+img {
+    display: block;
+    width:200px;
+    height: auto;
+}
+
+
+/* 1.4 Stying articles */
+.project img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+/* 2.2 Positioning articles */
+.project {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin: 40px 0;
+}
+.project:nth-child(even) {
+  flex-direction: row-reverse;
+}
+/* 2.3 positioning header */
+
