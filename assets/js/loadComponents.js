@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const navPlaceholder = document.getElementById("nav-placeholder");
 
     if (navPlaceholder) {
-        fetch("../assets/components/nav.html")
+        fetch("../components/nav.html")
             .then(response => response.text())
             .then(data => {
                 navPlaceholder.innerHTML = data;
